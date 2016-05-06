@@ -61,9 +61,9 @@ public class Board {
 			}
 		}
 		if((b.x*b.y*b.z)-visibleCount>b.mnum){
-			return true;
+			return false;
 		}
-		return false;
+		return true;
 	}
 	
 	public static void printBoardTiles(Board b){
